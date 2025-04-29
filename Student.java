@@ -3,12 +3,12 @@ public class Student {
     String name;
     int id;
     String course;
-    int phoneNo;
+    String phoneNo;
     String address;
    
 
     // Constructor
-    public Student(String name, int id, String course,int phoneNo,String address) {
+    public Student(String name, int id, String course,String phoneNo,String address) {
         this.name = name;
         this.id = id;
         this.course = course;
@@ -34,7 +34,7 @@ public class Student {
             "Abhishek",    // name
             109,                // id
             "BCA" ,
-            7899296504,
+            "7899296504",
             "Vidya Nagar"
             
         );
