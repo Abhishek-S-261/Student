@@ -3,13 +3,17 @@ public class Student {
     String name;
     int id;
     String course;
+    int phoneNo;
+    String address;
    
 
     // Constructor
-    public Student(String name, int id, String course) {
+    public Student(String name, int id, String course,int phoneNo,String address) {
         this.name = name;
         this.id = id;
         this.course = course;
+        this.phoneNo = phoneNo;
+        this.address = address;
        
     }
 
@@ -19,7 +23,8 @@ public class Student {
         System.out.println("Name: " + name);
         System.out.println("ID: " + id);
         System.out.println("Course: " + course);
-       
+        System.out.println("Phone Number: " + phoneNo);
+        System.out.println("Address: " + address);
     }
 
     // Main method
@@ -28,7 +33,9 @@ public class Student {
         Student s1 = new Student(
             "Abhishek",    // name
             109,                // id
-            "BCA" // course
+            "BCA" ,
+            7899296504,
+            "Vidya Nagar"
             
         );
 
